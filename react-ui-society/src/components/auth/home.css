@@ -1,0 +1,123 @@
+/* Adjust the padding of the body */
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Navbar adjustments */
+  .navbar {
+    padding:14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Brand title adjustments */
+  .navbar-brand {
+    margin-left: 20px;
+  }
+  
+  .container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Hero image adjustments */
+  .hero-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: left; /* Align the text to the left */
+  }
+  
+  .hero-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    left: 10%; /* Adjust the position of the text */
+    text-align: left; /* Align the text to the left */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 100px;
+    align-items: center;
+  }
+  
+  
+  .hero-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 1;
+    left: 5%; /* Adjust the position of the text */
+    text-align: left; /* Align the text to the left */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 700px; /* Adjust maximum width */
+    width: 50%; /* Adjust width as needed */
+    font-size: 1em; /* Adjust font size */
+    text-align: center
+    
+    
+    
+  }
+  
+  .society-image {
+    position: absolute;
+    
+    top: 40%;
+    right: 1%; /* Adjust the position of the image */
+    transform: translateY(-50%);
+    width: 500px; /* Adjust the width of the image */
+    height: 500px; /* Adjust the height of the image */
+  }
+  
+  .hero-text .btn {
+    display: inline-block;
+    padding: 8px 20px; /* Adjust padding to change button size */
+    margin-top: 15px; /* Adjust top margin for spacing */
+    border-radius: 5px; /* Optional: Add border-radius for button */
+    background-color: #007bff; /* Optional: Change button color */
+    color: white; /* Optional: Change button text color */
+    text-decoration: none; /* Optional: Remove underline */
+    left:50px;
+    margin-left: 10px; /* Center horizontally */
+    /* margin-right: 40px; Center horizontally */
+  }
+  .navbar-brand {
+    font-size: 27px;
+    font-weight: bold;
+    color: white; /* Set the desired text color */
+    /* Additional styles for the title */
+  }
+  /* Example styles for the logo */
+  .logo-img {
+    height: 50px; /* Adjust the height of the logo */
+    margin-right: 10px; /* Adjust spacing between the logo and text */
+  }
+  
+  .nav-icon {
+    color:white;
+    width: 30px; /* Set the width of the icon */
+    height: 30px; /* Set the height of the icon */
+    margin-right: 10px; /* Adjust the margin to provide space between icon and text */
+    /* Add any additional styles such as colors or alignments as needed */
+  }
+  

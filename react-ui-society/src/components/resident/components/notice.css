@@ -1,0 +1,23 @@
+/* NoticeComponent.css */
+
+.notice-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notice-row {
+    margin-top: 20px;
+  }
+  
+  .notice-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+    background-color: #f9f9f9;
+  }
+  
+  .notice-card:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -1,0 +1,18 @@
+/* navbar.css */
+
+/* Styles for Nav links */
+.nav-link {
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  
+  /* Hover effect for Nav links */
+  .nav-link:hover {
+    background-color: #2200ff;
+    color: #f5f4fd; /* Change color on hover to orange (you can adjust as needed) */
+    font-size:medium;
+  }
+  
+  .nav-item.active .nav-link {
+
+    border-bottom: 4px solid blue;
+  }
